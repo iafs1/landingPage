@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+.top {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1f2937;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.header > span {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    margin-left: auto;
+    list-style: none;
+    gap: 25px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section2 {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}

@@ -1,6 +1,137 @@
 * {
     margin: 0px;
     padding: 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+header, main, footer{
+    padding: 0 230px;
+}
+
+.quote, .main2 {
+    padding: 120px 230px;
+}
+
+.topo {
+    background-color: #1f2937;
+}
+
+.topo-cab {
+    display: flex;
+    padding: 24px 0;
+}
+
+.topo-cab-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.topo-cab-links {
+    display: flex;
+    gap: 24px;
+    margin-left: auto;
+}
+
+.topo-cab-link {
+    color: #e5e7eb;
+}
+
+.topo-main {
+    display: flex;
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.topo-main-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.topo-main-div-ttl {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.topo-main-div-txt {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.topo-main-div-btn {
+    background-color: #3882f6;
+    border: none;
+    height: 32px;
+    width: 96px;
+    border-radius: 6px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.topo-main-img {
+    width: 530px;
+    height: auto;
+    margin-left: auto;
+}
+
+.meio {
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meio-titulo {
+    padding: 50px 0;
+}
+
+.meio-div {
+    display: flex;
+    gap: 40px;
+}
+
+.meio-div-show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.meio-div-show-quadrado {
+    height: 150px;
+    width: 150px;
+    border: 3px solid;
+    border-color: #3882f6;
+    border-radius: 12px;
+
+}
+.meio-div-show-txt {
+    width: 150px;
+    text-align: center;
+    color: gray;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: bold;
 }
